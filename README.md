@@ -16,11 +16,11 @@ It allows easy sign-in and sign-out functionality with additional following feat
 1. Fork the repo and run `pod install`
 2. Change the link to the list of employees (in `BRASettingsManager`). An example json can be found in `SampleEmployeeFile.json`
 3. Once installed on device go to **settings** (*double tap on the logo on top of the screen*)
-	3.1. Change pin code from default `0000`. 
-	3.2. Specify email accounts (one to receive info about visitors, and one for the iPad itself).
-	3.3. Choose printer.
+    * Change pin code from default `0000`.
+    * Specify email accounts (one to receive info about visitors, and one for the iPad itself).
+    * Choose printer.
 
-#### You also might want to change
+##### You also might want to change
 
 * Logo image
 * Visitor agreement
