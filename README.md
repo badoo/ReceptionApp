@@ -28,3 +28,6 @@ It allows easy sign-in and sign-out functionality with additional following feat
 
 ### License
 Source code is distributed under MIT license.
+
+### Blog
+Read more at [techblog.badoo.com](https://techblog.badoo.com)
