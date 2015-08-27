@@ -1,0 +1,32 @@
+/****************************************************************************/
+/* Localization file */
+
+
+"Visitor: %@" = "Visitor: %@";
+"<br>Agreement and badge are in attachment<br>" = "<br>Agreement and badge are in attachment<br>";
+"Signed-in visitors report" = "Signed-in visitors report";
+"Sending error" = "Sending error";
+"Visitor: %@,<br>Date: %@,<br>Email: %@,<br>Company: %@,<br>Here to see: %@.<br>" = "Visitor: %@,<br>Date: %@,<br>Email: %@,<br>Company: %@,<br>Here to see: %@.<br>";
+"I understand" = "I understand";
+"Error" = "Error";
+"%@, Version %@" = "%@, Version %@";
+"Please sign the agreement first!" = "Please sign the agreement first!";
+"Printer is not available." = "Printer is not available.";
+"iPad's email is not configured." = "iPad's email is not configured.";
+"Receiver's email is not configured." = "Receiver's email is not configured.";
+"Please fill in all fields, no cutting corners!" = "Please fill in all fields, no cutting corners!";
+"Enter pin here" = "Enter pin here";
+"Enter" = "Enter";
+"Cancel" = "Cancel";
+"Incorrect Pin!" = "Incorrect Pin!";
+"Please try again" = "Please try again";
+"Not found" = "Not found";
+"Settings" = "Settings";
+"Email is not valid!" = "Email is not valid!";
+"Pin is not valid!" = "Pin is not valid!";
+"Need a printer" = "Need a printer";
+"Loading..." = "Loading...";
+"To enter settings, please enter pin" = "To enter settings, please enter pin";
+"Contact reception for your badge" = "Contact reception for your badge";
+"Sign Out:" = "Sign Out:";
+"What's your name?" = "What's your name?";

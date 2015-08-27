@@ -1,0 +1,85 @@
+PODS:
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - Haneke (1.0.1)
+  - JMBackgroundCameraView (1.0)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - mailcore2-ios (0.5.1)
+  - SignatureView (1.0)
+  - YapDatabase (2.7.1):
+    - YapDatabase/standard (= 2.7.1)
+  - YapDatabase/standard (2.7.1):
+    - CocoaLumberjack (~> 2)
+
+DEPENDENCIES:
+  - Haneke (~> 1.0)
+  - JMBackgroundCameraView (from `https://github.com/ulidev/JMBackgroundCameraView.git`)
+  - libextobjc (~> 0.4.1)
+  - mailcore2-ios (~> 0.5.1)
+  - SignatureView (from `https://github.com/terekhovanton/SignatureView.git`)
+  - YapDatabase (~> 2.4)
+
+EXTERNAL SOURCES:
+  JMBackgroundCameraView:
+    :git: https://github.com/ulidev/JMBackgroundCameraView.git
+  SignatureView:
+    :git: https://github.com/terekhovanton/SignatureView.git
+
+CHECKOUT OPTIONS:
+  JMBackgroundCameraView:
+    :commit: bbdda5a57e82cc06b4c15476fb7aa2c64b5243f6
+    :git: https://github.com/ulidev/JMBackgroundCameraView.git
+  SignatureView:
+    :commit: 60b17efb46dd4e8b5d3aa38d23564edb42f10faa
+    :git: https://github.com/terekhovanton/SignatureView.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  Haneke: d60be8b96b228633b24708dd153169d6849d6f78
+  JMBackgroundCameraView: 981ae4fffeae7fff06b9198930468fe37f8a2eaa
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  mailcore2-ios: f1c1cd3c91d8963293b6552ad11bf3c7cf8ef8a9
+  SignatureView: a934552b22cf9d6f07cb25cecb85a4236740fbb6
+  YapDatabase: e9ff9a189e99268a331575411e8462e4c6df2bc3
+
+COCOAPODS: 0.37.2

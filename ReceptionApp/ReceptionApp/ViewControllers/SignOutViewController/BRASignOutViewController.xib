@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BRASignOutViewController">
+            <connections>
+                <outlet property="collectionView" destination="PG7-40-uPl" id="iZ6-SD-je3"/>
+                <outlet property="titleLabel" destination="W8p-sV-hGq" id="fs5-9x-f3s"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sign Out:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8p-sV-hGq">
+                    <rect key="frame" x="64" y="53" width="472" height="46"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PG7-40-uPl">
+                    <rect key="frame" x="64" y="123" width="472" height="477"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vvy-ZH-ZAA">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PG7-40-uPl" secondAttribute="bottom" id="78f-Lt-ydi"/>
+                <constraint firstItem="PG7-40-uPl" firstAttribute="top" secondItem="W8p-sV-hGq" secondAttribute="bottom" constant="24" id="H4N-5D-hSj"/>
+                <constraint firstItem="W8p-sV-hGq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="64" id="Hx4-WY-NJP"/>
+                <constraint firstAttribute="trailing" secondItem="PG7-40-uPl" secondAttribute="trailing" constant="64" id="JEW-aF-npx"/>
+                <constraint firstAttribute="trailing" secondItem="W8p-sV-hGq" secondAttribute="trailing" constant="64" id="r6K-Z9-4G4"/>
+                <constraint firstItem="PG7-40-uPl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="64" id="tCm-pq-bYP"/>
+                <constraint firstItem="W8p-sV-hGq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="53" id="uHP-mr-hD4"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
