@@ -1,0 +1,19 @@
+{
+  "version" : 1.0,
+  "employees" : [
+    {
+      "name" : "John",
+      "surname" : "Johnson",
+      "position" : "iOS Developer",
+      "department" : "Mobile",
+      "image_url" : "http://some_site/john.png"
+    },
+    {
+      "name" : "Kelly",
+      "surname" : "Kelison",
+      "position" : "Java Developer",
+      "department" : "Mobile",
+      "image_url" : "http://some_site/kelly.png"
+    }
+  ]
+}

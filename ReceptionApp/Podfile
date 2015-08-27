@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+
+target 'ReceptionApp' do
+  pod 'JMBackgroundCameraView', :git => 'https://github.com/ulidev/JMBackgroundCameraView.git'
+  pod 'SignatureView', :git => 'https://github.com/terekhovanton/SignatureView.git'
+  pod 'mailcore2-ios', '~> 0.5.1'
+  pod 'YapDatabase', '~> 2.4'
+  pod 'libextobjc', '~> 0.4.1'
+  pod 'Haneke', '~> 1.0'
+end
+
+target 'ReceptionAppTests' do
+
+end
+

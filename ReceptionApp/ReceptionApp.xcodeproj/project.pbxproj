@@ -1,0 +1,1079 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014828A6ED7D091A87D7D244 /* libPods-ReceptionApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A773E4A3B0A7A1FBC78C9CD5 /* libPods-ReceptionApp.a */; };
+		27DEC0278634CB4351246871 /* UIColor+ComplementaryColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DECEF563FDB7A95D4E0D2C /* UIColor+ComplementaryColors.m */; };
+		27DEC13770215AB81B22EFEF /* BRAExpiredObjectsCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC6B9F3A976E1B271FE7F /* BRAExpiredObjectsCleaner.m */; };
+		27DEC146971139831994AE44 /* SampleEmployeeFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 27DEC15EFDCB1B4A7A064428 /* SampleEmployeeFile.json */; };
+		27DEC2C23755D3B6BB448268 /* NSString+EmailValidity.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC78F9CC0D56001A96213 /* NSString+EmailValidity.m */; };
+		27DEC37614EFB9CEE083F556 /* BRARepository+Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC6D716AE475D90421C29 /* BRARepository+Settings.m */; };
+		27DEC39D03FA1755B84969EF /* BRARepository+VisitorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC810F873BD20059ADEF6 /* BRARepository+VisitorAdditions.m */; };
+		27DEC3C2D2006C621B634E4A /* NSDate+TodayDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC1EEC49E9B43BC335A08 /* NSDate+TodayDay.m */; };
+		27DEC3C7390A13161F165461 /* UIViewController+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DECBC5730AD1B151490570 /* UIViewController+Factory.m */; };
+		27DEC5430D22C048A819479A /* BRAPrintPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC88985D74677749B92BF /* BRAPrintPageRenderer.m */; };
+		27DEC57C6BD848B8E3891C99 /* BRAPrintPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC28CDBAA70F5EE640A46 /* BRAPrintPaper.m */; };
+		27DEC6288E9D1E9EC3E63BC5 /* UITextField+TextInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DECBEECF2F4FCCCFC0FA2A /* UITextField+TextInsets.m */; };
+		27DEC699E40B717D45F9925B /* BRAEmployee+DictionarySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC2685D215FA1C8EE9365 /* BRAEmployee+DictionarySupport.m */; };
+		27DEC82909527497788FF75E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27DEC0A716C04E873923D516 /* Localizable.strings */; };
+		27DEC8B967CD7A5387A6D5D5 /* BRAEmployeesUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC1F90629C441491A541D /* BRAEmployeesUpdater.m */; };
+		27DECB52B95CFEE6CE5C65DC /* BRAPeriodicEventsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC649AEAC3ED17E7E8176 /* BRAPeriodicEventsService.m */; };
+		27DECB5C4719852D02D91572 /* BRAPDFRenderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC70B3E39BC26DB82E406 /* BRAPDFRenderOperation.m */; };
+		27DECF50ED7F3B931B7F1227 /* BRASearchTableViewCell+Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DEC3F071D710642FAD9E5C /* BRASearchTableViewCell+Employee.m */; };
+		55017F5B1B5CFF3E003B40D9 /* BRASearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55017F591B5CFF3E003B40D9 /* BRASearchTableViewController.m */; };
+		55017F5C1B5CFF3E003B40D9 /* BRASearchTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55017F5A1B5CFF3E003B40D9 /* BRASearchTableViewController.xib */; };
+		55017F661B5CFFC6003B40D9 /* BRASearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55017F651B5CFFC6003B40D9 /* BRASearchTableViewCell.m */; };
+		55017F751B5D264D003B40D9 /* BRARepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 55017F721B5D264D003B40D9 /* BRARepository.m */; };
+		55017F8B1B5D28D4003B40D9 /* BRAEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 55017F841B5D28D4003B40D9 /* BRAEmployee.m */; };
+		55017F8C1B5D28D4003B40D9 /* BRAPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 55017F861B5D28D4003B40D9 /* BRAPerson.m */; };
+		55017F8D1B5D28D4003B40D9 /* BRAVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 55017F881B5D28D4003B40D9 /* BRAVisitor.m */; };
+		55017F921B5D28EB003B40D9 /* BRASearchEmployeesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 55017F901B5D28EB003B40D9 /* BRASearchEmployeesDataSource.m */; };
+		55359A841B5E829B009FC61F /* BRAMailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55359A831B5E829B009FC61F /* BRAMailManager.m */; };
+		555428271B4D7217006ABA04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 555428261B4D7217006ABA04 /* main.m */; };
+		5554282A1B4D7217006ABA04 /* BRAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 555428291B4D7217006ABA04 /* BRAAppDelegate.m */; };
+		555428351B4D7217006ABA04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555428331B4D7217006ABA04 /* LaunchScreen.xib */; };
+		555428411B4D7218006ABA04 /* ReceptionAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 555428401B4D7218006ABA04 /* ReceptionAppTests.m */; };
+		557298D21B663314005940A5 /* BRASelectNamesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 557298D11B663314005940A5 /* BRASelectNamesView.m */; };
+		557298D41B6633BC005940A5 /* BRASelectNamesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 557298D31B6633BC005940A5 /* BRASelectNamesView.xib */; };
+		5579D7771B54089000943149 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5579D7761B54089000943149 /* libMailCore-ios.a */; };
+		5579D7791B54089A00943149 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5579D7781B54089A00943149 /* Security.framework */; };
+		55B0E3051B4FFADE007CC729 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B0E3041B4FFADE007CC729 /* CFNetwork.framework */; };
+		55C7C4291B613B650019D134 /* BRASignOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C7C4271B613B650019D134 /* BRASignOutViewController.m */; };
+		55C7C42A1B613B650019D134 /* BRASignOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C7C4281B613B650019D134 /* BRASignOutViewController.xib */; };
+		55CD79B41B6002A80061B5C1 /* BRASignoutCollectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CD79B31B6002A80061B5C1 /* BRASignoutCollectionDataSource.m */; };
+		55CD79B81B60099C0061B5C1 /* BRASignoutCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CD79B71B60099C0061B5C1 /* BRASignoutCollectionCell.m */; };
+		55DDFC831B6A83F8006A630D /* UIFont+CorporateFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DDFC821B6A83F8006A630D /* UIFont+CorporateFont.m */; };
+		55DDFC851B6A8E4B006A630D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DDFC841B6A8E4B006A630D /* Images.xcassets */; };
+		55E4D6DD1B623BE8004C3039 /* BRAVisitorSelectedFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E4D6DC1B623BE8004C3039 /* BRAVisitorSelectedFlowLayout.m */; };
+		8E4D6B061B57D8E100995376 /* BRASettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D6B041B57D8E100995376 /* BRASettingsViewController.m */; };
+		8E4D6B071B57D8E100995376 /* BRASettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4D6B051B57D8E100995376 /* BRASettingsViewController.xib */; };
+		8E4D6B0B1B57F6F600995376 /* BRASettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D6B0A1B57F6F600995376 /* BRASettingsManager.m */; };
+		8E503FD01B54212F00C075FF /* BRAPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E503FCD1B54212F00C075FF /* BRAPrinter.m */; };
+		8E503FD11B54212F00C075FF /* BRAPrinterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E503FCF1B54212F00C075FF /* BRAPrinterController.m */; };
+		8E503FDB1B55108200C075FF /* BRAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E503FD91B55108200C075FF /* BRAMainViewController.m */; };
+		8E503FDC1B55108200C075FF /* BRAMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E503FDA1B55108200C075FF /* BRAMainViewController.xib */; };
+		8E503FE21B5523E200C075FF /* BRASignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E503FE01B5523E200C075FF /* BRASignInViewController.m */; };
+		8E503FE31B5523E200C075FF /* BRASignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E503FE11B5523E200C075FF /* BRASignInViewController.xib */; };
+		8E503FE71B553BAC00C075FF /* BRAFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E503FE51B553BAC00C075FF /* BRAFormViewController.m */; };
+		8E503FE81B553BAC00C075FF /* BRAFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E503FE61B553BAC00C075FF /* BRAFormViewController.xib */; };
+		8E5324251B567857005CEB94 /* BRAAgreementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5324231B567857005CEB94 /* BRAAgreementViewController.m */; };
+		8E5324261B567857005CEB94 /* BRAAgreementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5324241B567857005CEB94 /* BRAAgreementViewController.xib */; };
+		8E53242B1B5680B7005CEB94 /* BRABadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5324291B5680B7005CEB94 /* BRABadgeViewController.m */; };
+		8E53242C1B5680B7005CEB94 /* BRABadgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E53242A1B5680B7005CEB94 /* BRABadgeViewController.xib */; };
+		8E67EB741B8F3A2D00078E60 /* BRASigninFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E67EB731B8F3A2D00078E60 /* BRASigninFlow.m */; };
+		8EB4BB121B5FDBD800706A62 /* Agreement.html in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4BB111B5FDBD800706A62 /* Agreement.html */; };
+		8EB4BB141B5FDE6D00706A62 /* BRAEmployeesDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4BB131B5FDE6D00706A62 /* BRAEmployeesDownloader.m */; };
+		8EDC09C61B60107300DC021C /* BRAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC09C41B60107300DC021C /* BRAWebViewController.m */; };
+		8EDC09C71B60107300DC021C /* BRAWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EDC09C51B60107300DC021C /* BRAWebViewController.xib */; };
+		8EEDDB491B592EFB00B04712 /* BRAPushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDDB481B592EFB00B04712 /* BRAPushAnimator.m */; };
+		8EEDDB4C1B592F0F00B04712 /* BRAPopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDDB4B1B592F0F00B04712 /* BRAPopAnimator.m */; };
+		8EEDDB4F1B592FAF00B04712 /* BRAAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDDB4E1B592FAF00B04712 /* BRAAnimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5554283B1B4D7218006ABA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555428191B4D7217006ABA04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555428201B4D7217006ABA04;
+			remoteInfo = ReceptionApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05640E5C9EC9F521D72E39C8 /* Pods-ReceptionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceptionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReceptionApp/Pods-ReceptionApp.release.xcconfig"; sourceTree = "<group>"; };
+		27DEC0A716C04E873923D516 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = Resources/Localizable.strings; sourceTree = "<group>"; };
+		27DEC0B3C0D0FE6ABA8A8A6E /* NSDate+TodayDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+TodayDay.h"; path = "Categories/NSDate+TodayDay.h"; sourceTree = "<group>"; };
+		27DEC0B7E8E9E407AAFE02F0 /* BRARepository+Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BRARepository+Settings.h"; path = "SettingsManager/BRARepository+Settings.h"; sourceTree = "<group>"; };
+		27DEC15EFDCB1B4A7A064428 /* SampleEmployeeFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = SampleEmployeeFile.json; path = Resources/SampleEmployeeFile.json; sourceTree = "<group>"; };
+		27DEC1EEC49E9B43BC335A08 /* NSDate+TodayDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+TodayDay.m"; path = "Categories/NSDate+TodayDay.m"; sourceTree = "<group>"; };
+		27DEC1F90629C441491A541D /* BRAEmployeesUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAEmployeesUpdater.m; sourceTree = "<group>"; };
+		27DEC2685D215FA1C8EE9365 /* BRAEmployee+DictionarySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BRAEmployee+DictionarySupport.m"; path = "Model/BRAEmployee+DictionarySupport.m"; sourceTree = "<group>"; };
+		27DEC28CDBAA70F5EE640A46 /* BRAPrintPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAPrintPaper.m; path = Airprint/BRAPrintPaper.m; sourceTree = "<group>"; };
+		27DEC36AA5AB82F36AED7A17 /* BRAEventHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAEventHandlerProtocol.h; sourceTree = "<group>"; };
+		27DEC37807EEFC2B0E3E4DD2 /* UIColor+HexAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexAdditions.h"; path = "Categories/UIColor+HexAdditions.h"; sourceTree = "<group>"; };
+		27DEC3ED34E140CCCD7F4490 /* BRASearchTableViewCell+Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BRASearchTableViewCell+Employee.h"; path = "ViewControllers/SearchTableViewController/View/BRASearchTableViewCell+Employee.h"; sourceTree = "<group>"; };
+		27DEC3F071D710642FAD9E5C /* BRASearchTableViewCell+Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BRASearchTableViewCell+Employee.m"; path = "ViewControllers/SearchTableViewController/View/BRASearchTableViewCell+Employee.m"; sourceTree = "<group>"; };
+		27DEC40A93380D8D50CD033E /* BRAPeriodicEventsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAPeriodicEventsService.h; sourceTree = "<group>"; };
+		27DEC44373DA657779ECDCDB /* BRAPDFRenderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPDFRenderOperation.h; path = Operations/BRAPDFRenderOperation.h; sourceTree = "<group>"; };
+		27DEC4E3B227F00772ABA613 /* BRAEmployeesUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAEmployeesUpdater.h; sourceTree = "<group>"; };
+		27DEC4E7F6134EE0196A9529 /* BRARepository+VisitorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BRARepository+VisitorAdditions.h"; path = "Repository/BRARepository+VisitorAdditions.h"; sourceTree = "<group>"; };
+		27DEC5A76744BF872C1572E5 /* BRAExpiredObjectsCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAExpiredObjectsCleaner.h; sourceTree = "<group>"; };
+		27DEC649AEAC3ED17E7E8176 /* BRAPeriodicEventsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAPeriodicEventsService.m; sourceTree = "<group>"; };
+		27DEC6B9F3A976E1B271FE7F /* BRAExpiredObjectsCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAExpiredObjectsCleaner.m; sourceTree = "<group>"; };
+		27DEC6D716AE475D90421C29 /* BRARepository+Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BRARepository+Settings.m"; path = "SettingsManager/BRARepository+Settings.m"; sourceTree = "<group>"; };
+		27DEC70B3E39BC26DB82E406 /* BRAPDFRenderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAPDFRenderOperation.m; path = Operations/BRAPDFRenderOperation.m; sourceTree = "<group>"; };
+		27DEC78F9CC0D56001A96213 /* NSString+EmailValidity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+EmailValidity.m"; path = "Categories/NSString+EmailValidity.m"; sourceTree = "<group>"; };
+		27DEC7AFCE84868EDA986CDE /* BRAPrintPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPrintPaper.h; path = Airprint/BRAPrintPaper.h; sourceTree = "<group>"; };
+		27DEC810F873BD20059ADEF6 /* BRARepository+VisitorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BRARepository+VisitorAdditions.m"; path = "Repository/BRARepository+VisitorAdditions.m"; sourceTree = "<group>"; };
+		27DEC88985D74677749B92BF /* BRAPrintPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAPrintPageRenderer.m; path = Airprint/BRAPrintPageRenderer.m; sourceTree = "<group>"; };
+		27DECA026D02ADF4DA1303FE /* NSString+EmailValidity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+EmailValidity.h"; path = "Categories/NSString+EmailValidity.h"; sourceTree = "<group>"; };
+		27DECA982CF6A5AD09F2E7F7 /* BRAEmployeesDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAEmployeesDownloader.h; path = Operations/BRAEmployeesDownloader.h; sourceTree = "<group>"; };
+		27DECACAF6D73E1BDE9C68A7 /* BRAEmployee+DictionarySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BRAEmployee+DictionarySupport.h"; path = "Model/BRAEmployee+DictionarySupport.h"; sourceTree = "<group>"; };
+		27DECBC5730AD1B151490570 /* UIViewController+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Factory.m"; path = "ViewControllers/UIViewController+Factory/UIViewController+Factory.m"; sourceTree = "<group>"; };
+		27DECBEECF2F4FCCCFC0FA2A /* UITextField+TextInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TextInsets.m"; path = "Categories/UITextField+TextInsets.m"; sourceTree = "<group>"; };
+		27DECBF6ECD74BB775996D57 /* UIViewController+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Factory.h"; path = "ViewControllers/UIViewController+Factory/UIViewController+Factory.h"; sourceTree = "<group>"; };
+		27DECDF832B30E55421E7428 /* BRAPrintPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPrintPageRenderer.h; path = Airprint/BRAPrintPageRenderer.h; sourceTree = "<group>"; };
+		27DECEC1F2E2519B818D6BA1 /* UITextField+TextInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+TextInsets.h"; path = "Categories/UITextField+TextInsets.h"; sourceTree = "<group>"; };
+		27DECEF563FDB7A95D4E0D2C /* UIColor+ComplementaryColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ComplementaryColors.m"; path = "Categories/Colors/UIColor+ComplementaryColors.m"; sourceTree = "<group>"; };
+		27DECFCE0F0979C3202E6609 /* UIColor+ComplementaryColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ComplementaryColors.h"; path = "Categories/Colors/UIColor+ComplementaryColors.h"; sourceTree = "<group>"; };
+		55017F581B5CFF3E003B40D9 /* BRASearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASearchTableViewController.h; path = ViewControllers/SearchTableViewController/BRASearchTableViewController.h; sourceTree = "<group>"; };
+		55017F591B5CFF3E003B40D9 /* BRASearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASearchTableViewController.m; path = ViewControllers/SearchTableViewController/BRASearchTableViewController.m; sourceTree = "<group>"; };
+		55017F5A1B5CFF3E003B40D9 /* BRASearchTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRASearchTableViewController.xib; path = ViewControllers/SearchTableViewController/BRASearchTableViewController.xib; sourceTree = "<group>"; };
+		55017F641B5CFFC6003B40D9 /* BRASearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASearchTableViewCell.h; path = ViewControllers/SearchTableViewController/View/BRASearchTableViewCell.h; sourceTree = "<group>"; };
+		55017F651B5CFFC6003B40D9 /* BRASearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASearchTableViewCell.m; path = ViewControllers/SearchTableViewController/View/BRASearchTableViewCell.m; sourceTree = "<group>"; };
+		55017F701B5D264D003B40D9 /* BRARepositoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRARepositoryProtocol.h; path = Repository/BRARepositoryProtocol.h; sourceTree = "<group>"; };
+		55017F711B5D264D003B40D9 /* BRARepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRARepository.h; path = Repository/BRARepository.h; sourceTree = "<group>"; };
+		55017F721B5D264D003B40D9 /* BRARepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRARepository.m; path = Repository/BRARepository.m; sourceTree = "<group>"; };
+		55017F831B5D28D4003B40D9 /* BRAEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAEmployee.h; path = Model/BRAEmployee.h; sourceTree = "<group>"; };
+		55017F841B5D28D4003B40D9 /* BRAEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAEmployee.m; path = Model/BRAEmployee.m; sourceTree = "<group>"; };
+		55017F851B5D28D4003B40D9 /* BRAPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPerson.h; path = Model/BRAPerson.h; sourceTree = "<group>"; };
+		55017F861B5D28D4003B40D9 /* BRAPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAPerson.m; path = Model/BRAPerson.m; sourceTree = "<group>"; };
+		55017F871B5D28D4003B40D9 /* BRAVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAVisitor.h; path = Model/BRAVisitor.h; sourceTree = "<group>"; };
+		55017F881B5D28D4003B40D9 /* BRAVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAVisitor.m; path = Model/BRAVisitor.m; sourceTree = "<group>"; };
+		55017F8F1B5D28EB003B40D9 /* BRASearchEmployeesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASearchEmployeesDataSource.h; path = Model/BRASearchEmployeesDataSource.h; sourceTree = "<group>"; };
+		55017F901B5D28EB003B40D9 /* BRASearchEmployeesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASearchEmployeesDataSource.m; path = Model/BRASearchEmployeesDataSource.m; sourceTree = "<group>"; };
+		55017F911B5D28EB003B40D9 /* BRASearchProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASearchProviderProtocol.h; path = Model/BRASearchProviderProtocol.h; sourceTree = "<group>"; };
+		55359A821B5E829B009FC61F /* BRAMailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAMailManager.h; path = Mail/BRAMailManager.h; sourceTree = "<group>"; };
+		55359A831B5E829B009FC61F /* BRAMailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAMailManager.m; path = Mail/BRAMailManager.m; sourceTree = "<group>"; };
+		555428211B4D7217006ABA04 /* ReceptionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceptionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555428251B4D7217006ABA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555428261B4D7217006ABA04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		555428281B4D7217006ABA04 /* BRAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAAppDelegate.h; sourceTree = "<group>"; };
+		555428291B4D7217006ABA04 /* BRAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAAppDelegate.m; sourceTree = "<group>"; };
+		555428341B4D7217006ABA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5554283A1B4D7218006ABA04 /* ReceptionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5554283F1B4D7218006ABA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555428401B4D7218006ABA04 /* ReceptionAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceptionAppTests.m; sourceTree = "<group>"; };
+		557298D01B663314005940A5 /* BRASelectNamesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASelectNamesView.h; path = ViewControllers/SignOutViewController/View/BRASelectNamesView.h; sourceTree = "<group>"; };
+		557298D11B663314005940A5 /* BRASelectNamesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASelectNamesView.m; path = ViewControllers/SignOutViewController/View/BRASelectNamesView.m; sourceTree = "<group>"; };
+		557298D31B6633BC005940A5 /* BRASelectNamesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRASelectNamesView.xib; path = ViewControllers/SignOutViewController/View/BRASelectNamesView.xib; sourceTree = "<group>"; };
+		5579D7761B54089000943149 /* libMailCore-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMailCore-ios.a"; path = "Pods/mailcore2-ios/lib/libMailCore-ios.a"; sourceTree = "<group>"; };
+		5579D7781B54089A00943149 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		55B0E3041B4FFADE007CC729 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		55C7C4261B613B650019D134 /* BRASignOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASignOutViewController.h; path = ViewControllers/SignOutViewController/BRASignOutViewController.h; sourceTree = "<group>"; };
+		55C7C4271B613B650019D134 /* BRASignOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASignOutViewController.m; path = ViewControllers/SignOutViewController/BRASignOutViewController.m; sourceTree = "<group>"; };
+		55C7C4281B613B650019D134 /* BRASignOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRASignOutViewController.xib; path = ViewControllers/SignOutViewController/BRASignOutViewController.xib; sourceTree = "<group>"; };
+		55CD79B21B6002A80061B5C1 /* BRASignoutCollectionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASignoutCollectionDataSource.h; path = ViewControllers/SingoutViewController/BRASignoutCollectionDataSource.h; sourceTree = "<group>"; };
+		55CD79B31B6002A80061B5C1 /* BRASignoutCollectionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASignoutCollectionDataSource.m; path = ViewControllers/SingoutViewController/BRASignoutCollectionDataSource.m; sourceTree = "<group>"; };
+		55CD79B61B60099C0061B5C1 /* BRASignoutCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASignoutCollectionCell.h; path = ViewControllers/SingoutViewController/View/BRASignoutCollectionCell.h; sourceTree = "<group>"; };
+		55CD79B71B60099C0061B5C1 /* BRASignoutCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASignoutCollectionCell.m; path = ViewControllers/SingoutViewController/View/BRASignoutCollectionCell.m; sourceTree = "<group>"; };
+		55DDFC811B6A83F8006A630D /* UIFont+CorporateFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+CorporateFont.h"; path = "Categories/UIFont+CorporateFont.h"; sourceTree = "<group>"; };
+		55DDFC821B6A83F8006A630D /* UIFont+CorporateFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+CorporateFont.m"; path = "Categories/UIFont+CorporateFont.m"; sourceTree = "<group>"; };
+		55DDFC841B6A8E4B006A630D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55E4D6DB1B623BE8004C3039 /* BRAVisitorSelectedFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAVisitorSelectedFlowLayout.h; path = ViewControllers/SignOutViewController/Flow/BRAVisitorSelectedFlowLayout.h; sourceTree = "<group>"; };
+		55E4D6DC1B623BE8004C3039 /* BRAVisitorSelectedFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAVisitorSelectedFlowLayout.m; path = ViewControllers/SignOutViewController/Flow/BRAVisitorSelectedFlowLayout.m; sourceTree = "<group>"; };
+		8E4D6B031B57D8E100995376 /* BRASettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASettingsViewController.h; path = ViewControllers/SettignsViewController/BRASettingsViewController.h; sourceTree = "<group>"; };
+		8E4D6B041B57D8E100995376 /* BRASettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASettingsViewController.m; path = ViewControllers/SettignsViewController/BRASettingsViewController.m; sourceTree = "<group>"; };
+		8E4D6B051B57D8E100995376 /* BRASettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRASettingsViewController.xib; path = ViewControllers/SettignsViewController/BRASettingsViewController.xib; sourceTree = "<group>"; };
+		8E4D6B091B57F6F600995376 /* BRASettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASettingsManager.h; path = SettingsManager/BRASettingsManager.h; sourceTree = "<group>"; };
+		8E4D6B0A1B57F6F600995376 /* BRASettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASettingsManager.m; path = SettingsManager/BRASettingsManager.m; sourceTree = "<group>"; };
+		8E503FCC1B54212F00C075FF /* BRAPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPrinter.h; path = Airprint/BRAPrinter.h; sourceTree = "<group>"; };
+		8E503FCD1B54212F00C075FF /* BRAPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAPrinter.m; path = Airprint/BRAPrinter.m; sourceTree = "<group>"; };
+		8E503FCE1B54212F00C075FF /* BRAPrinterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPrinterController.h; path = Airprint/BRAPrinterController.h; sourceTree = "<group>"; };
+		8E503FCF1B54212F00C075FF /* BRAPrinterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAPrinterController.m; path = Airprint/BRAPrinterController.m; sourceTree = "<group>"; };
+		8E503FD81B55108200C075FF /* BRAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAMainViewController.h; path = ViewControllers/MainViewController/BRAMainViewController.h; sourceTree = "<group>"; };
+		8E503FD91B55108200C075FF /* BRAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAMainViewController.m; path = ViewControllers/MainViewController/BRAMainViewController.m; sourceTree = "<group>"; };
+		8E503FDA1B55108200C075FF /* BRAMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRAMainViewController.xib; path = ViewControllers/MainViewController/BRAMainViewController.xib; sourceTree = "<group>"; };
+		8E503FDF1B5523E200C075FF /* BRASignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASignInViewController.h; path = ViewControllers/SignInViewController/BRASignInViewController.h; sourceTree = "<group>"; };
+		8E503FE01B5523E200C075FF /* BRASignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASignInViewController.m; path = ViewControllers/SignInViewController/BRASignInViewController.m; sourceTree = "<group>"; };
+		8E503FE11B5523E200C075FF /* BRASignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRASignInViewController.xib; path = ViewControllers/SignInViewController/BRASignInViewController.xib; sourceTree = "<group>"; };
+		8E503FE41B553BAC00C075FF /* BRAFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAFormViewController.h; path = ViewControllers/FormViewController/BRAFormViewController.h; sourceTree = "<group>"; };
+		8E503FE51B553BAC00C075FF /* BRAFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAFormViewController.m; path = ViewControllers/FormViewController/BRAFormViewController.m; sourceTree = "<group>"; };
+		8E503FE61B553BAC00C075FF /* BRAFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRAFormViewController.xib; path = ViewControllers/FormViewController/BRAFormViewController.xib; sourceTree = "<group>"; };
+		8E5324221B567857005CEB94 /* BRAAgreementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAAgreementViewController.h; path = ViewControllers/AgreementViewController/BRAAgreementViewController.h; sourceTree = "<group>"; };
+		8E5324231B567857005CEB94 /* BRAAgreementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAAgreementViewController.m; path = ViewControllers/AgreementViewController/BRAAgreementViewController.m; sourceTree = "<group>"; };
+		8E5324241B567857005CEB94 /* BRAAgreementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRAAgreementViewController.xib; path = ViewControllers/AgreementViewController/BRAAgreementViewController.xib; sourceTree = "<group>"; };
+		8E5324281B5680B7005CEB94 /* BRABadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRABadgeViewController.h; path = ViewControllers/BadgeViewController/BRABadgeViewController.h; sourceTree = "<group>"; };
+		8E5324291B5680B7005CEB94 /* BRABadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRABadgeViewController.m; path = ViewControllers/BadgeViewController/BRABadgeViewController.m; sourceTree = "<group>"; };
+		8E53242A1B5680B7005CEB94 /* BRABadgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRABadgeViewController.xib; path = ViewControllers/BadgeViewController/BRABadgeViewController.xib; sourceTree = "<group>"; };
+		8E67EB731B8F3A2D00078E60 /* BRASigninFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRASigninFlow.m; path = SigninFlow/BRASigninFlow.m; sourceTree = "<group>"; };
+		8EA4F0B61B7E132800E2E235 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8EB4BB111B5FDBD800706A62 /* Agreement.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Agreement.html; path = Resources/Agreement.html; sourceTree = "<group>"; };
+		8EB4BB131B5FDE6D00706A62 /* BRAEmployeesDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAEmployeesDownloader.m; path = Operations/BRAEmployeesDownloader.m; sourceTree = "<group>"; };
+		8EDC09C31B60107300DC021C /* BRAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAWebViewController.h; path = ViewControllers/WebViewController/BRAWebViewController.h; sourceTree = "<group>"; };
+		8EDC09C41B60107300DC021C /* BRAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAWebViewController.m; path = ViewControllers/WebViewController/BRAWebViewController.m; sourceTree = "<group>"; };
+		8EDC09C51B60107300DC021C /* BRAWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BRAWebViewController.xib; path = ViewControllers/WebViewController/BRAWebViewController.xib; sourceTree = "<group>"; };
+		8EEDDB471B592EFB00B04712 /* BRAPushAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPushAnimator.h; path = ViewControllers/Animators/BRAPushAnimator.h; sourceTree = "<group>"; };
+		8EEDDB481B592EFB00B04712 /* BRAPushAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAPushAnimator.m; path = ViewControllers/Animators/BRAPushAnimator.m; sourceTree = "<group>"; };
+		8EEDDB4A1B592F0F00B04712 /* BRAPopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAPopAnimator.h; path = ViewControllers/Animators/BRAPopAnimator.h; sourceTree = "<group>"; };
+		8EEDDB4B1B592F0F00B04712 /* BRAPopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAPopAnimator.m; path = ViewControllers/Animators/BRAPopAnimator.m; sourceTree = "<group>"; };
+		8EEDDB4D1B592FAF00B04712 /* BRAAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAAnimator.h; path = ViewControllers/Animators/BRAAnimator.h; sourceTree = "<group>"; };
+		8EEDDB4E1B592FAF00B04712 /* BRAAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAAnimator.m; path = ViewControllers/Animators/BRAAnimator.m; sourceTree = "<group>"; };
+		8EEDDB511B59532900B04712 /* BRASigninFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRASigninFlow.h; path = SigninFlow/BRASigninFlow.h; sourceTree = "<group>"; };
+		A773E4A3B0A7A1FBC78C9CD5 /* libPods-ReceptionApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReceptionApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1E445A6F242C5AA9BE421E /* Pods-ReceptionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReceptionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReceptionApp/Pods-ReceptionApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5554281E1B4D7217006ABA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5579D7791B54089A00943149 /* Security.framework in Frameworks */,
+				5579D7771B54089000943149 /* libMailCore-ios.a in Frameworks */,
+				55B0E3051B4FFADE007CC729 /* CFNetwork.framework in Frameworks */,
+				014828A6ED7D091A87D7D244 /* libPods-ReceptionApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555428371B4D7218006ABA04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27DEC008DEC3AC800E5DEE02 /* FormViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E503FE41B553BAC00C075FF /* BRAFormViewController.h */,
+				8E503FE51B553BAC00C075FF /* BRAFormViewController.m */,
+				8E503FE61B553BAC00C075FF /* BRAFormViewController.xib */,
+			);
+			name = FormViewController;
+			sourceTree = "<group>";
+		};
+		27DEC2377BCED33311C59647 /* Repository Additions */ = {
+			isa = PBXGroup;
+			children = (
+				27DEC4E7F6134EE0196A9529 /* BRARepository+VisitorAdditions.h */,
+				27DEC810F873BD20059ADEF6 /* BRARepository+VisitorAdditions.m */,
+				27DEC0B7E8E9E407AAFE02F0 /* BRARepository+Settings.h */,
+				27DEC6D716AE475D90421C29 /* BRARepository+Settings.m */,
+			);
+			name = "Repository Additions";
+			sourceTree = "<group>";
+		};
+		27DEC9002FFE82A694A3D2E8 /* UpdatesService */ = {
+			isa = PBXGroup;
+			children = (
+				27DEC36AA5AB82F36AED7A17 /* BRAEventHandlerProtocol.h */,
+				27DEC40A93380D8D50CD033E /* BRAPeriodicEventsService.h */,
+				27DEC649AEAC3ED17E7E8176 /* BRAPeriodicEventsService.m */,
+				8E5114AA1B82458E00AF3F03 /* Handlers */,
+			);
+			path = UpdatesService;
+			sourceTree = "<group>";
+		};
+		27DECB0A2E692D80A9028B92 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				27DECA982CF6A5AD09F2E7F7 /* BRAEmployeesDownloader.h */,
+				8EB4BB131B5FDE6D00706A62 /* BRAEmployeesDownloader.m */,
+				27DEC70B3E39BC26DB82E406 /* BRAPDFRenderOperation.m */,
+				27DEC44373DA657779ECDCDB /* BRAPDFRenderOperation.h */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		55017F931B5D2EF7003B40D9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				27DEC0B3C0D0FE6ABA8A8A6E /* NSDate+TodayDay.h */,
+				27DEC1EEC49E9B43BC335A08 /* NSDate+TodayDay.m */,
+				27DECFCE0F0979C3202E6609 /* UIColor+ComplementaryColors.h */,
+				27DECEF563FDB7A95D4E0D2C /* UIColor+ComplementaryColors.m */,
+				27DEC37807EEFC2B0E3E4DD2 /* UIColor+HexAdditions.h */,
+				27DECA026D02ADF4DA1303FE /* NSString+EmailValidity.h */,
+				27DEC78F9CC0D56001A96213 /* NSString+EmailValidity.m */,
+				27DECEC1F2E2519B818D6BA1 /* UITextField+TextInsets.h */,
+				27DECBEECF2F4FCCCFC0FA2A /* UITextField+TextInsets.m */,
+				55DDFC811B6A83F8006A630D /* UIFont+CorporateFont.h */,
+				55DDFC821B6A83F8006A630D /* UIFont+CorporateFont.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		55359A811B5E824C009FC61F /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				55359A821B5E829B009FC61F /* BRAMailManager.h */,
+				55359A831B5E829B009FC61F /* BRAMailManager.m */,
+			);
+			name = Mail;
+			sourceTree = "<group>";
+		};
+		555287D61B55507B00E40507 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55017F851B5D28D4003B40D9 /* BRAPerson.h */,
+				55017F861B5D28D4003B40D9 /* BRAPerson.m */,
+				55017F831B5D28D4003B40D9 /* BRAEmployee.h */,
+				55017F841B5D28D4003B40D9 /* BRAEmployee.m */,
+				55017F871B5D28D4003B40D9 /* BRAVisitor.h */,
+				55017F881B5D28D4003B40D9 /* BRAVisitor.m */,
+				27DECACAF6D73E1BDE9C68A7 /* BRAEmployee+DictionarySupport.h */,
+				27DEC2685D215FA1C8EE9365 /* BRAEmployee+DictionarySupport.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		555428181B4D7217006ABA04 = {
+			isa = PBXGroup;
+			children = (
+				555428231B4D7217006ABA04 /* ReceptionApp */,
+				5554283D1B4D7218006ABA04 /* ReceptionAppTests */,
+				555428221B4D7217006ABA04 /* Products */,
+				C98A2B76C320F12867AFCBC6 /* Pods */,
+				AF80393014D078CC57F18A10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		555428221B4D7217006ABA04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555428211B4D7217006ABA04 /* ReceptionApp.app */,
+				5554283A1B4D7218006ABA04 /* ReceptionAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555428231B4D7217006ABA04 /* ReceptionApp */ = {
+			isa = PBXGroup;
+			children = (
+				555428281B4D7217006ABA04 /* BRAAppDelegate.h */,
+				555428291B4D7217006ABA04 /* BRAAppDelegate.m */,
+				8EEDDB501B59530900B04712 /* SigninFlow */,
+				55017F931B5D2EF7003B40D9 /* Categories */,
+				8E503FD71B55101300C075FF /* ViewControllers */,
+				27DEC9002FFE82A694A3D2E8 /* UpdatesService */,
+				5579D7B71B551AD200943149 /* Repository */,
+				555287D61B55507B00E40507 /* Model */,
+				5579D65E1B53DD9B00943149 /* Airprint */,
+				8E4D6B081B57F6B300995376 /* Settings */,
+				27DECB0A2E692D80A9028B92 /* Operations */,
+				8E503FD21B54217A00C075FF /* Resources */,
+				55359A811B5E824C009FC61F /* Mail */,
+				555428241B4D7217006ABA04 /* Supporting Files */,
+			);
+			path = ReceptionApp;
+			sourceTree = "<group>";
+		};
+		555428241B4D7217006ABA04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				555428251B4D7217006ABA04 /* Info.plist */,
+				555428261B4D7217006ABA04 /* main.m */,
+				8EA4F0B61B7E132800E2E235 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5554283D1B4D7218006ABA04 /* ReceptionAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				555428401B4D7218006ABA04 /* ReceptionAppTests.m */,
+				5554283E1B4D7218006ABA04 /* Supporting Files */,
+			);
+			path = ReceptionAppTests;
+			sourceTree = "<group>";
+		};
+		5554283E1B4D7218006ABA04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5554283F1B4D7218006ABA04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5579D65E1B53DD9B00943149 /* Airprint */ = {
+			isa = PBXGroup;
+			children = (
+				8E503FCC1B54212F00C075FF /* BRAPrinter.h */,
+				8E503FCD1B54212F00C075FF /* BRAPrinter.m */,
+				8E503FCE1B54212F00C075FF /* BRAPrinterController.h */,
+				8E503FCF1B54212F00C075FF /* BRAPrinterController.m */,
+				27DEC88985D74677749B92BF /* BRAPrintPageRenderer.m */,
+				27DECDF832B30E55421E7428 /* BRAPrintPageRenderer.h */,
+				27DEC28CDBAA70F5EE640A46 /* BRAPrintPaper.m */,
+				27DEC7AFCE84868EDA986CDE /* BRAPrintPaper.h */,
+			);
+			name = Airprint;
+			sourceTree = "<group>";
+		};
+		5579D7B71B551AD200943149 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				55017F701B5D264D003B40D9 /* BRARepositoryProtocol.h */,
+				55017F711B5D264D003B40D9 /* BRARepository.h */,
+				55017F721B5D264D003B40D9 /* BRARepository.m */,
+				27DEC2377BCED33311C59647 /* Repository Additions */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		5593DDC51B5970A300AD47FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55017F641B5CFFC6003B40D9 /* BRASearchTableViewCell.h */,
+				55017F651B5CFFC6003B40D9 /* BRASearchTableViewCell.m */,
+				27DEC3F071D710642FAD9E5C /* BRASearchTableViewCell+Employee.m */,
+				27DEC3ED34E140CCCD7F4490 /* BRASearchTableViewCell+Employee.h */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		55B6674B1B59131800F91373 /* SearchTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55017F581B5CFF3E003B40D9 /* BRASearchTableViewController.h */,
+				55017F591B5CFF3E003B40D9 /* BRASearchTableViewController.m */,
+				55017F5A1B5CFF3E003B40D9 /* BRASearchTableViewController.xib */,
+				55017F8F1B5D28EB003B40D9 /* BRASearchEmployeesDataSource.h */,
+				55017F901B5D28EB003B40D9 /* BRASearchEmployeesDataSource.m */,
+				55017F911B5D28EB003B40D9 /* BRASearchProviderProtocol.h */,
+				5593DDC51B5970A300AD47FE /* View */,
+			);
+			name = SearchTableViewController;
+			sourceTree = "<group>";
+		};
+		55C7C4251B613B2A0019D134 /* SigOutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55C7C4261B613B650019D134 /* BRASignOutViewController.h */,
+				55C7C4271B613B650019D134 /* BRASignOutViewController.m */,
+				55C7C4281B613B650019D134 /* BRASignOutViewController.xib */,
+				55CD79B21B6002A80061B5C1 /* BRASignoutCollectionDataSource.h */,
+				55CD79B31B6002A80061B5C1 /* BRASignoutCollectionDataSource.m */,
+				55E4D6761B6157A9004C3039 /* Flow */,
+				55CD79B51B60097F0061B5C1 /* View */,
+			);
+			name = SigOutViewController;
+			sourceTree = "<group>";
+		};
+		55CD79B51B60097F0061B5C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				557298D01B663314005940A5 /* BRASelectNamesView.h */,
+				557298D11B663314005940A5 /* BRASelectNamesView.m */,
+				557298D31B6633BC005940A5 /* BRASelectNamesView.xib */,
+				55CD79B61B60099C0061B5C1 /* BRASignoutCollectionCell.h */,
+				55CD79B71B60099C0061B5C1 /* BRASignoutCollectionCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		55E4D6761B6157A9004C3039 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				55E4D6DB1B623BE8004C3039 /* BRAVisitorSelectedFlowLayout.h */,
+				55E4D6DC1B623BE8004C3039 /* BRAVisitorSelectedFlowLayout.m */,
+			);
+			name = Flow;
+			sourceTree = "<group>";
+		};
+		8E4D6B011B56C3CD00995376 /* UIViewController+Factory */ = {
+			isa = PBXGroup;
+			children = (
+				27DECBF6ECD74BB775996D57 /* UIViewController+Factory.h */,
+				27DECBC5730AD1B151490570 /* UIViewController+Factory.m */,
+			);
+			name = "UIViewController+Factory";
+			sourceTree = "<group>";
+		};
+		8E4D6B021B57D8AD00995376 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D6B031B57D8E100995376 /* BRASettingsViewController.h */,
+				8E4D6B041B57D8E100995376 /* BRASettingsViewController.m */,
+				8E4D6B051B57D8E100995376 /* BRASettingsViewController.xib */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		8E4D6B081B57F6B300995376 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D6B091B57F6F600995376 /* BRASettingsManager.h */,
+				8E4D6B0A1B57F6F600995376 /* BRASettingsManager.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		8E503FD21B54217A00C075FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55DDFC841B6A8E4B006A630D /* Images.xcassets */,
+				555428331B4D7217006ABA04 /* LaunchScreen.xib */,
+				27DEC15EFDCB1B4A7A064428 /* SampleEmployeeFile.json */,
+				8EB4BB111B5FDBD800706A62 /* Agreement.html */,
+				27DEC0A716C04E873923D516 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E503FD71B55101300C075FF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDDB461B592ED900B04712 /* Animators */,
+				8E4D6B011B56C3CD00995376 /* UIViewController+Factory */,
+				8E503FDD1B55108700C075FF /* MainViewController */,
+				55C7C4251B613B2A0019D134 /* SigOutViewController */,
+				8E4D6B021B57D8AD00995376 /* SettingsViewController */,
+				8E5324271B568056005CEB94 /* BadgeViewController */,
+				8E5324211B56780E005CEB94 /* AgreementViewController */,
+				8EDC09C21B60102600DC021C /* WebViewController */,
+				8E503FDE1B5523C000C075FF /* SignInViewController */,
+				27DEC008DEC3AC800E5DEE02 /* FormViewController */,
+				55B6674B1B59131800F91373 /* SearchTableViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8E503FDD1B55108700C075FF /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E503FD81B55108200C075FF /* BRAMainViewController.h */,
+				8E503FD91B55108200C075FF /* BRAMainViewController.m */,
+				8E503FDA1B55108200C075FF /* BRAMainViewController.xib */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		8E503FDE1B5523C000C075FF /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E503FDF1B5523E200C075FF /* BRASignInViewController.h */,
+				8E503FE01B5523E200C075FF /* BRASignInViewController.m */,
+				8E503FE11B5523E200C075FF /* BRASignInViewController.xib */,
+			);
+			name = SignInViewController;
+			sourceTree = "<group>";
+		};
+		8E5114AA1B82458E00AF3F03 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				27DEC4E3B227F00772ABA613 /* BRAEmployeesUpdater.h */,
+				27DEC1F90629C441491A541D /* BRAEmployeesUpdater.m */,
+				27DEC5A76744BF872C1572E5 /* BRAExpiredObjectsCleaner.h */,
+				27DEC6B9F3A976E1B271FE7F /* BRAExpiredObjectsCleaner.m */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		8E5324211B56780E005CEB94 /* AgreementViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E5324221B567857005CEB94 /* BRAAgreementViewController.h */,
+				8E5324231B567857005CEB94 /* BRAAgreementViewController.m */,
+				8E5324241B567857005CEB94 /* BRAAgreementViewController.xib */,
+			);
+			name = AgreementViewController;
+			sourceTree = "<group>";
+		};
+		8E5324271B568056005CEB94 /* BadgeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E5324281B5680B7005CEB94 /* BRABadgeViewController.h */,
+				8E5324291B5680B7005CEB94 /* BRABadgeViewController.m */,
+				8E53242A1B5680B7005CEB94 /* BRABadgeViewController.xib */,
+			);
+			name = BadgeViewController;
+			sourceTree = "<group>";
+		};
+		8EDC09C21B60102600DC021C /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8EDC09C31B60107300DC021C /* BRAWebViewController.h */,
+				8EDC09C41B60107300DC021C /* BRAWebViewController.m */,
+				8EDC09C51B60107300DC021C /* BRAWebViewController.xib */,
+			);
+			name = WebViewController;
+			sourceTree = "<group>";
+		};
+		8EEDDB461B592ED900B04712 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDDB4D1B592FAF00B04712 /* BRAAnimator.h */,
+				8EEDDB4E1B592FAF00B04712 /* BRAAnimator.m */,
+				8EEDDB471B592EFB00B04712 /* BRAPushAnimator.h */,
+				8EEDDB481B592EFB00B04712 /* BRAPushAnimator.m */,
+				8EEDDB4A1B592F0F00B04712 /* BRAPopAnimator.h */,
+				8EEDDB4B1B592F0F00B04712 /* BRAPopAnimator.m */,
+			);
+			name = Animators;
+			sourceTree = "<group>";
+		};
+		8EEDDB501B59530900B04712 /* SigninFlow */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDDB511B59532900B04712 /* BRASigninFlow.h */,
+				8E67EB731B8F3A2D00078E60 /* BRASigninFlow.m */,
+			);
+			name = SigninFlow;
+			sourceTree = "<group>";
+		};
+		AF80393014D078CC57F18A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5579D7781B54089A00943149 /* Security.framework */,
+				5579D7761B54089000943149 /* libMailCore-ios.a */,
+				55B0E3041B4FFADE007CC729 /* CFNetwork.framework */,
+				A773E4A3B0A7A1FBC78C9CD5 /* libPods-ReceptionApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C98A2B76C320F12867AFCBC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E445A6F242C5AA9BE421E /* Pods-ReceptionApp.debug.xcconfig */,
+				05640E5C9EC9F521D72E39C8 /* Pods-ReceptionApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555428201B4D7217006ABA04 /* ReceptionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555428441B4D7218006ABA04 /* Build configuration list for PBXNativeTarget "ReceptionApp" */;
+			buildPhases = (
+				A173761DB9AEF7CBD149AA54 /* Check Pods Manifest.lock */,
+				5554281D1B4D7217006ABA04 /* Sources */,
+				5554281E1B4D7217006ABA04 /* Frameworks */,
+				5554281F1B4D7217006ABA04 /* Resources */,
+				ACF97DE643D871B0DC2983FD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceptionApp;
+			productName = ReceptionApp;
+			productReference = 555428211B4D7217006ABA04 /* ReceptionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		555428391B4D7218006ABA04 /* ReceptionAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555428471B4D7218006ABA04 /* Build configuration list for PBXNativeTarget "ReceptionAppTests" */;
+			buildPhases = (
+				555428361B4D7218006ABA04 /* Sources */,
+				555428371B4D7218006ABA04 /* Frameworks */,
+				555428381B4D7218006ABA04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5554283C1B4D7218006ABA04 /* PBXTargetDependency */,
+			);
+			name = ReceptionAppTests;
+			productName = ReceptionAppTests;
+			productReference = 5554283A1B4D7218006ABA04 /* ReceptionAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		555428191B4D7217006ABA04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Badoo;
+				TargetAttributes = {
+					555428201B4D7217006ABA04 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 92BDVV69P5;
+					};
+					555428391B4D7218006ABA04 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 555428201B4D7217006ABA04;
+					};
+				};
+			};
+			buildConfigurationList = 5554281C1B4D7217006ABA04 /* Build configuration list for PBXProject "ReceptionApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 555428181B4D7217006ABA04;
+			productRefGroup = 555428221B4D7217006ABA04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555428201B4D7217006ABA04 /* ReceptionApp */,
+				555428391B4D7218006ABA04 /* ReceptionAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5554281F1B4D7217006ABA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DDFC851B6A8E4B006A630D /* Images.xcassets in Resources */,
+				8E503FE81B553BAC00C075FF /* BRAFormViewController.xib in Resources */,
+				8EB4BB121B5FDBD800706A62 /* Agreement.html in Resources */,
+				8E503FE31B5523E200C075FF /* BRASignInViewController.xib in Resources */,
+				8E4D6B071B57D8E100995376 /* BRASettingsViewController.xib in Resources */,
+				8E53242C1B5680B7005CEB94 /* BRABadgeViewController.xib in Resources */,
+				55C7C42A1B613B650019D134 /* BRASignOutViewController.xib in Resources */,
+				55017F5C1B5CFF3E003B40D9 /* BRASearchTableViewController.xib in Resources */,
+				555428351B4D7217006ABA04 /* LaunchScreen.xib in Resources */,
+				8E5324261B567857005CEB94 /* BRAAgreementViewController.xib in Resources */,
+				557298D41B6633BC005940A5 /* BRASelectNamesView.xib in Resources */,
+				8EDC09C71B60107300DC021C /* BRAWebViewController.xib in Resources */,
+				8E503FDC1B55108200C075FF /* BRAMainViewController.xib in Resources */,
+				27DEC146971139831994AE44 /* SampleEmployeeFile.json in Resources */,
+				27DEC82909527497788FF75E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555428381B4D7218006ABA04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A173761DB9AEF7CBD149AA54 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF97DE643D871B0DC2983FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReceptionApp/Pods-ReceptionApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5554281D1B4D7217006ABA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEDDB4F1B592FAF00B04712 /* BRAAnimator.m in Sources */,
+				8E4D6B0B1B57F6F600995376 /* BRASettingsManager.m in Sources */,
+				8E503FD11B54212F00C075FF /* BRAPrinterController.m in Sources */,
+				8E503FE71B553BAC00C075FF /* BRAFormViewController.m in Sources */,
+				8E67EB741B8F3A2D00078E60 /* BRASigninFlow.m in Sources */,
+				55017F5B1B5CFF3E003B40D9 /* BRASearchTableViewController.m in Sources */,
+				8E5324251B567857005CEB94 /* BRAAgreementViewController.m in Sources */,
+				5554282A1B4D7217006ABA04 /* BRAAppDelegate.m in Sources */,
+				557298D21B663314005940A5 /* BRASelectNamesView.m in Sources */,
+				55017F8B1B5D28D4003B40D9 /* BRAEmployee.m in Sources */,
+				8E503FDB1B55108200C075FF /* BRAMainViewController.m in Sources */,
+				555428271B4D7217006ABA04 /* main.m in Sources */,
+				55C7C4291B613B650019D134 /* BRASignOutViewController.m in Sources */,
+				8EEDDB4C1B592F0F00B04712 /* BRAPopAnimator.m in Sources */,
+				55DDFC831B6A83F8006A630D /* UIFont+CorporateFont.m in Sources */,
+				8EEDDB491B592EFB00B04712 /* BRAPushAnimator.m in Sources */,
+				55017F8D1B5D28D4003B40D9 /* BRAVisitor.m in Sources */,
+				55017F8C1B5D28D4003B40D9 /* BRAPerson.m in Sources */,
+				8E4D6B061B57D8E100995376 /* BRASettingsViewController.m in Sources */,
+				55CD79B41B6002A80061B5C1 /* BRASignoutCollectionDataSource.m in Sources */,
+				8EDC09C61B60107300DC021C /* BRAWebViewController.m in Sources */,
+				8EB4BB141B5FDE6D00706A62 /* BRAEmployeesDownloader.m in Sources */,
+				55017F751B5D264D003B40D9 /* BRARepository.m in Sources */,
+				55E4D6DD1B623BE8004C3039 /* BRAVisitorSelectedFlowLayout.m in Sources */,
+				55359A841B5E829B009FC61F /* BRAMailManager.m in Sources */,
+				55017F661B5CFFC6003B40D9 /* BRASearchTableViewCell.m in Sources */,
+				8E503FE21B5523E200C075FF /* BRASignInViewController.m in Sources */,
+				8E53242B1B5680B7005CEB94 /* BRABadgeViewController.m in Sources */,
+				8E503FD01B54212F00C075FF /* BRAPrinter.m in Sources */,
+				55017F921B5D28EB003B40D9 /* BRASearchEmployeesDataSource.m in Sources */,
+				27DEC3C7390A13161F165461 /* UIViewController+Factory.m in Sources */,
+				55CD79B81B60099C0061B5C1 /* BRASignoutCollectionCell.m in Sources */,
+				27DECF50ED7F3B931B7F1227 /* BRASearchTableViewCell+Employee.m in Sources */,
+				27DEC39D03FA1755B84969EF /* BRARepository+VisitorAdditions.m in Sources */,
+				27DEC37614EFB9CEE083F556 /* BRARepository+Settings.m in Sources */,
+				27DEC699E40B717D45F9925B /* BRAEmployee+DictionarySupport.m in Sources */,
+				27DEC5430D22C048A819479A /* BRAPrintPageRenderer.m in Sources */,
+				27DEC57C6BD848B8E3891C99 /* BRAPrintPaper.m in Sources */,
+				27DEC3C2D2006C621B634E4A /* NSDate+TodayDay.m in Sources */,
+				27DEC0278634CB4351246871 /* UIColor+ComplementaryColors.m in Sources */,
+				27DEC2C23755D3B6BB448268 /* NSString+EmailValidity.m in Sources */,
+				27DEC6288E9D1E9EC3E63BC5 /* UITextField+TextInsets.m in Sources */,
+				27DECB5C4719852D02D91572 /* BRAPDFRenderOperation.m in Sources */,
+				27DECB52B95CFEE6CE5C65DC /* BRAPeriodicEventsService.m in Sources */,
+				27DEC8B967CD7A5387A6D5D5 /* BRAEmployeesUpdater.m in Sources */,
+				27DEC13770215AB81B22EFEF /* BRAExpiredObjectsCleaner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555428361B4D7218006ABA04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555428411B4D7218006ABA04 /* ReceptionAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5554283C1B4D7218006ABA04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555428201B4D7217006ABA04 /* ReceptionApp */;
+			targetProxy = 5554283B1B4D7218006ABA04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		555428331B4D7217006ABA04 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555428341B4D7217006ABA04 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		555428421B4D7218006ABA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		555428431B4D7218006ABA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555428451B4D7218006ABA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1E445A6F242C5AA9BE421E /* Pods-ReceptionApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = ReceptionApp/PrefixHeader.pch;
+				INFOPLIST_FILE = ReceptionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/mailcore2-ios/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"MailCore-ios\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lc++",
+					"-lresolv",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		555428461B4D7218006ABA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05640E5C9EC9F521D72E39C8 /* Pods-ReceptionApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = ReceptionApp/PrefixHeader.pch;
+				INFOPLIST_FILE = ReceptionApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/mailcore2-ios/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"MailCore-ios\"",
+					"-l\"c++\"",
+					"-l\"iconv\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lc++",
+					"-lresolv",
+					"-stdlib=libc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+		555428481B4D7218006ABA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReceptionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceptionApp.app/ReceptionApp";
+			};
+			name = Debug;
+		};
+		555428491B4D7218006ABA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReceptionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceptionApp.app/ReceptionApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5554281C1B4D7217006ABA04 /* Build configuration list for PBXProject "ReceptionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555428421B4D7218006ABA04 /* Debug */,
+				555428431B4D7218006ABA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555428441B4D7218006ABA04 /* Build configuration list for PBXNativeTarget "ReceptionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555428451B4D7218006ABA04 /* Debug */,
+				555428461B4D7218006ABA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555428471B4D7218006ABA04 /* Build configuration list for PBXNativeTarget "ReceptionAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555428481B4D7218006ABA04 /* Debug */,
+				555428491B4D7218006ABA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 555428191B4D7217006ABA04 /* Project object */;
+}
